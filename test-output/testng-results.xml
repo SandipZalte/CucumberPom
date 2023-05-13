@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T17:26:54Z" name="Default suite" finished-at="2023-05-05T17:27:08Z" duration-ms="13681">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-05T17:26:54Z" name="Default test" finished-at="2023-05-05T17:27:08Z" duration-ms="13681">
+      <class name="Parallel.TestNg_ParallelTestingTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:54Z" name="setUpClass" finished-at="2023-05-05T17:26:55Z" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="732" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Contact us by different set of data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[coontact us page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.pages.AccountPage.ClickOnContactUs()" because "this.accountPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.pages.AccountPage.ClickOnContactUs()" because "this.accountPage" is null
+at Parallel.ContactUsPageSteps.user_navigate_to_the_contact_us_page(ContactUsPageSteps.java:28)
+at ✽.User Navigate to the contact us Page(classpath:Parallel/ContactUs.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="726" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+at Parallel.LoginPageStep.userIsOnLoginPage(LoginPageStep.java:18)
+at ✽.User is on login Page(classpath:Parallel/LoginPage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="744" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enter the valid Credintals"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+at Parallel.LoginPageStep.userIsOnLoginPage(LoginPageStep.java:18)
+at ✽.User is on login Page(classpath:Parallel/LoginPage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="724" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Forgot password link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+at Parallel.LoginPageStep.userIsOnLoginPage(LoginPageStep.java:18)
+at ✽.User is on login Page(classpath:Parallel/LoginPage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="721" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["account section count"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[My Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+at Parallel.AccountPageSteps.user_is_already_logged_in_the_application(AccountPageSteps.java:24)
+at ✽.User is already logged in the application(classpath:Parallel/MyAccount.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="738" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Account page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[My Account Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "com.qa.factory.DriverFactory.getDriver()" is null
+at Parallel.AccountPageSteps.user_is_already_logged_in_the_application(AccountPageSteps.java:24)
+at ✽.User is already logged in the application(classpath:Parallel/MyAccount.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-05T17:26:56Z" duration-ms="728" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Contact us by different set of data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[coontact us page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.pages.AccountPage.ClickOnContactUs()" because "this.accountPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.pages.AccountPage.ClickOnContactUs()" because "this.accountPage" is null
+at Parallel.ContactUsPageSteps.user_navigate_to_the_contact_us_page(ContactUsPageSteps.java:28)
+at ✽.User Navigate to the contact us Page(classpath:Parallel/ContactUs.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Parallel.TestNg_ParallelTestingTest@17bffc17]" started-at="2023-05-05T17:26:56Z" name="tearDownClass" finished-at="2023-05-05T17:27:08Z" duration-ms="11823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Parallel.TestNg_ParallelTestingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
